@@ -8,4 +8,4 @@ LeetCode practise
 [29.螺旋矩阵II](leetcode/59.md)  
 
 ### 哈希表
-[136.只出现一次的数](leetcode/136.md)
+[136.只出现一次的数(异或)](leetcode/136.md)
