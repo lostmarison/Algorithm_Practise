@@ -8,8 +8,7 @@ LeetCode practise
 [29.螺旋矩阵II](leetcode/59.md)  
 
 ### 链表  
-[203.移除链表元素](leetcode/203.md)  
-[LCR024.反转链表](leetcode/LCR024.md)  
+[203.移除链表元素](leetcode/203.md) 
 [24.两两交换链表中的节点](leetcode/24.md)
 
 ### 哈希表
