@@ -4,6 +4,7 @@ LeetCode practise
 ### 数组
 [704.二分查找](leetcode/704.md)  
 [34.在排序数组中查找元素的初末位置](leetcode/34.md)  
+[35.搜索插入位置](leetcode/35.md)  
 [27.移除元素](leetcode/27.md)  
 [283.移动0](leetcode/283.md)  
 [26.删除有序数组重复项](leetcode/26.md)  
