@@ -8,7 +8,7 @@ LeetCode practise
 [29.螺旋矩阵II](leetcode/59.md)  
 
 ### 链表  
-[0.链表定义](leetcode/link.md)  
+[链表定义](leetcode/link.md)  
 [203.移除链表元素](leetcode/203.md)  
 [83.删除排序链表中的重复元素](leetcode/83.md)  
 [24.两两交换链表中的节点](leetcode/24.md)  
