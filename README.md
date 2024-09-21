@@ -21,4 +21,5 @@ LeetCode practise
 [328.奇偶链表](leetcode/328.md)  
 
 ### 哈希表
-[136.只出现一次的数(异或)](leetcode/136.md)
+[136.只出现一次的数(异或)](leetcode/136.md)  
+[1002. 查找共用字符](leetcode/1002.md)  
