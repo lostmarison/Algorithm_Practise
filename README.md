@@ -25,3 +25,6 @@ LeetCode practise
 [1002. 查找共用字符](leetcode/1002.md)  
 [202.快乐数](leetcode/202.md)  
 [1.两数之和](leetcode/1.md)  
+
+### 回溯算法
+[78.幂集](leetcode/78.md)  
