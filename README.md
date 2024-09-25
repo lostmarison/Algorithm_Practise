@@ -26,6 +26,10 @@ LeetCode practise
 [202.快乐数](leetcode/202.md)  
 [1.两数之和](leetcode/1.md)  
 
+### 栈
+[20.有效的括号](leetcode/20.md)  
+[1047.删除字符串中所有相邻重复项](leetcode/1047.md)
+
 ### 回溯算法
 [77.组合](leetcode/77.md)  
 [78.幂集](leetcode/78.md)  
