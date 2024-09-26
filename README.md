@@ -28,7 +28,11 @@ LeetCode practise
 
 ### 栈
 [20.有效的括号](leetcode/20.md)  
-[1047.删除字符串中所有相邻重复项](leetcode/1047.md)
+[1047.删除字符串中所有相邻重复项](leetcode/1047.md)  
+[150.逆波兰表达式求值(后缀表达式)](leetcode/150.md)  
+
+### 队列
+[239. 滑动窗口最大值](leetcode/239.md)  
 
 ### 回溯算法
 [77.组合](leetcode/77.md)  
