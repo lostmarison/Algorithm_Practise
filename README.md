@@ -35,6 +35,7 @@ LeetCode practise
 [239. 滑动窗口最大值](leetcode/239.md)  
 
 ### 回溯算法
+[回溯算法基本思想](leetcode/backtracking.md)  
 [77.组合](leetcode/77.md)  
 [51.N皇后](leetcode/51.md)  
 [78.幂集](leetcode/78.md)  
