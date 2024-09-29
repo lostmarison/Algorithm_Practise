@@ -36,4 +36,5 @@ LeetCode practise
 
 ### 回溯算法
 [77.组合](leetcode/77.md)  
+[51.N皇后](leetcode/51.md)  
 [78.幂集](leetcode/78.md)  
