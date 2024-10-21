@@ -62,23 +62,23 @@ public:
         if (!root) { // 如果根结点为空
             return result;
         }
-        deque<TreeNode*> dq; // 定义队列
-        dq.push_back(root); // 根结点入队
+        queue<TreeNode*> q; // 定义队列
+        q.push(root); // 根结点入队
 
-        while (!dq.empty()) {
+        while (!q.empty()) {
             vector<int> temp;
-            int levelSize = dq.size(); // 当前层的结点数
+            int levelSize = q.size(); // 当前层的结点数
             for (int i = 1; i <= levelSize; ++i) {
-                TreeNode* node = dq.front(); // 记录队头元素
-                dq.pop_front();              // 队头元素出队
+                TreeNode* node = q.front(); // 记录队头元素
+                q.pop();              // 队头元素出队
                 temp.push_back(node->val); // 将当前结点值加入当前层的临时存储
 
                 // 将当前结点的左右孩子（如果存在）加入队列
                 if (node->left) {
-                    dq.push_back(node->left);
+                    q.push(node->left);
                 }
                 if (node->right) {
-                    dq.push_back(node->right);
+                    q.push(node->right);
                 }
             }
             result.push_back(temp); // 将当前层的节点值列表加入结果
