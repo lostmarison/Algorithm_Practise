@@ -15,12 +15,11 @@ LeetCode practise
 ### 链表  
 [1.链表定义](leetcode/link.md)  
 [203.移除链表元素](leetcode/203.md)  
-[83.删除排序链表中的重复元素](leetcode/83.md)  
-[1.删除最小值的结点](extra/删除最小值的结点.md)  
+[补充1.删除最小值的结点](extra/删除最小值的结点.md)
+[83.删除排序链表中的重复元素](leetcode/83.md)   
 [24.两两交换链表中的节点](leetcode/24.md)  
 [19.删除链表的倒数第N个结点](leetcode/19.md)  
 [328.奇偶链表](leetcode/328.md)    
-
 ### 哈希表
 [136.只出现一次的数(异或)](leetcode/136.md)  
 [1002. 查找共用字符](leetcode/1002.md)  
