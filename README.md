@@ -41,8 +41,8 @@ LeetCode practise
 
 ### 二叉树
 [2.二叉树的遍历](leetcode/order.md)  
-[104.二叉树的最大深度](leetcode/104.md)  
-[111.二叉树的最小深度](leetcode/111.md)
+104.二叉树的最大深度(leetcode/104.md)  
+111.二叉树的最小深度(leetcode/111.md)
 
 ### 回溯算法
 [回溯算法基本思想](leetcode/backtracking.md)  
