@@ -40,6 +40,10 @@ LeetCode practise
 [15.三数之和](leetcode/15.md)  
 [18.四数之和](leetcode/18.md)  
 
+### 二叉树
+[二叉树的遍历](leetcode/order.md)  
+[104.二叉树最大深度](leetcode/104.md)
+
 ### 回溯算法
 [回溯算法基本思想](leetcode/backtracking.md)  
 [77.组合](leetcode/77.md)  
