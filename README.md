@@ -13,7 +13,7 @@ LeetCode practise
 [29.螺旋矩阵II](leetcode/59.md)  
 
 ### 链表  
-[0.链表定义](leetcode/link.md)  
+[1.链表定义](leetcode/link.md)  
 [203.移除链表元素](leetcode/203.md)  
 [83.删除排序链表中的重复元素](leetcode/83.md)  
 [1.删除最小值的结点](extra/删除最小值的结点.md)  
@@ -41,7 +41,7 @@ LeetCode practise
 [18.四数之和](leetcode/18.md)  
 
 ### 二叉树
-[二叉树的遍历](leetcode/order.md)  
+[2.二叉树的遍历](leetcode/order.md)  
 [104.二叉树的最大深度](leetcode/104.md)  
 [111.二叉树的最小深度](leetcode/111.md)
 
