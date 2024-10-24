@@ -40,9 +40,9 @@ LeetCode practise
 [18.四数之和](leetcode/18.md)  
 
 ### 二叉树
-##### 二叉树的遍历方式
+#### 二叉树的遍历方式
 [2.二叉树的遍历](leetcode/order.md)
-##### 二叉树的属性
+#### 二叉树的属性
 [101.对称二叉树](leetcode/101.md)  
 [104.二叉树的最大深度](leetcode/104.md)  
 [111.二叉树的最小深度](leetcode/111.md)  
@@ -52,7 +52,7 @@ LeetCode practise
 [404.左叶子之和](leetcode/404.md)  
 [513.找树左下角的值](leetcode/513.md)  
 [112.路径之和](leetcode/112.md)  
-##### 二叉树的修改与构造
+#### 二叉树的修改与构造
 [226.翻转二叉树](leetcode/226.md)  
 [106.从中序与后序遍历序列构造二叉树](leetcode/106.md)  
 [654.最大二叉树](leetcode/654.md)  
