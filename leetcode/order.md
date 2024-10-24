@@ -2,13 +2,14 @@
 // 前序遍历
 class Solution {
 public:
-    void preorder(TreeNode* root, vector<int>& result) {
-        if (!root) {
+    void preorder(TreeNode* bt, vector<int>& result) {
+        // 递归结束条件
+        if (!bt) {
             return;
         }
-        result.push_back(root->val); // 根
-        preorder(root->left, result); //左子树
-        preorder(root->right, result); //右子树
+        result.push_back(bt->val); // 根
+        preorder(bt->left, result); //左子树
+        preorder(bt->right, result); //右子树
     }
 
     vector<int> preorderTraversal(TreeNode* root) {
@@ -21,13 +22,14 @@ public:
 // 中序遍历
 class Solution {
 public:
-    void inorder(TreeNode* root, vector<int>& result) {
-        if (!root) {
+    void inorder(TreeNode* bt, vector<int>& result) {
+        // 递归结束条件
+        if (!bt) {
             return;
         }
-        inorder(root->left, result); // 左子树
-        result.push_back(root->val); // 根
-        inorder(root->right, result); // 右子树
+        inorder(bt->left, result); // 左子树
+        result.push_back(bt->val); // 根
+        inorder(bt->right, result); // 右子树
     }
     vector<int> inorderTraversal(TreeNode* root) {
         vector<int> result;
@@ -39,13 +41,14 @@ public:
 // 后序遍历
 class Solution {
 public:
-    void postorder(TreeNode* root, vector<int>& result) {
-        if (!root) {
+    void postorder(TreeNode* bt, vector<int>& result) {
+        // 递归结束条件
+        if (!bt) {
             return;
         }
-        postorder(root->left, result); // 左子树
-        postorder(root->right, result); // 右子树
-        result.push_back(root->val); // 根
+        postorder(bt->left, result); // 左子树
+        postorder(bt->right, result); // 右子树
+        result.push_back(bt->val); // 根
     }
     vector<int> postorderTraversal(TreeNode* root) {
         vector<int> result;
