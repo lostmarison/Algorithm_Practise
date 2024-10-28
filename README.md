@@ -54,6 +54,10 @@ LeetCode practise
 [106.从中序与后序遍历序列构造二叉树](leetcode/106.md)  
 [654.最大二叉树](leetcode/654.md)  
 [617.合并二叉树](leetcode/617.md)  
+[700.二叉搜索树中的搜索](leetcode/700.md)  
+[98.验证二叉搜索树](leetcode/98.md)  
+[530.二叉搜索树的最小绝对差](leetcode/530.md)  
+[501.二叉搜索树中的众数](leetcode/501.md)  
 ### 回溯算法
 [回溯算法基本思想](leetcode/backtracking.md)  
 [77.组合](leetcode/77.md)  
