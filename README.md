@@ -60,7 +60,9 @@ LeetCode practise
 [501.二叉搜索树中的众数](leetcode/501.md)  
 [538.把二叉搜索树转换成累加树](leetcode/538.md)  
 [236.二叉树最近的公共祖先](leetcode/236.md)  
-[235.搜索树的最近公共祖先](leetcode/235.md)  
+[235.搜索树的最近公共祖先](leetcode/235.md) 
+[701.二叉搜索树中的插入操作](leetcode/701.md)  
+[450.删除二叉搜索树中的节点](leetcode/450.md)   
 ### 回溯算法
 [回溯算法基本思想](leetcode/backtracking.md)  
 [77.组合](leetcode/77.md)  
