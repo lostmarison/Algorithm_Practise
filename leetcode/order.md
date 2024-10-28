@@ -13,7 +13,8 @@ public:
     }
 /*
 if语句的作用：
-避免非法访问：如果 bt 为空，尝试访问 bt->val、bt->left 或 bt->right 将是非法的，因为这些操作会尝试解引用一个空指针。if 语句确保只有在 bt 非空时，这些操作才会执行，从而避免了未定义行为（如程序崩溃）。
+避免非法访问：如果 bt 为空，尝试访问 bt->val、bt->left 或 bt->right 将是非法的，因为这些操作会尝试解引用一个空指针。
+if 语句确保只有在 bt 非空时，这些操作才会执行，从而避免了未定义行为（如程序崩溃）。
 */
 
     vector<int> preorderTraversal(TreeNode* root) {
