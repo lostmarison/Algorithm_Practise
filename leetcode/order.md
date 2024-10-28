@@ -70,8 +70,8 @@ public:
 
         while (!q.empty()) {
             vector<int> temp;
-            int levelSize = q.size(); // 当前层的结点数
-            for (int i = 1; i <= levelSize; ++i) {
+            int levelsize = q.size(); // 当前层的结点数
+            for (int i = 1; i <= levelsize; ++i) {
                 TreeNode* node = q.front(); // 记录队头元素
                 q.pop();              // 队头元素出队
                 temp.push_back(node->val); // 将当前结点值加入当前层的临时存储
