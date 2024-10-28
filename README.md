@@ -59,6 +59,8 @@ LeetCode practise
 [530.二叉搜索树的最小绝对差](leetcode/530.md)  
 [501.二叉搜索树中的众数](leetcode/501.md)  
 [538.把二叉搜索树转换成累加树](leetcode/538.md)  
+[236.二叉树最近的公共祖先](leetcode/236.md)  
+[530.搜索树的最近公共祖先](leetcode/530.md)  
 ### 回溯算法
 [回溯算法基本思想](leetcode/backtracking.md)  
 [77.组合](leetcode/77.md)  
