@@ -12,4 +12,10 @@ void backtracking(参数) {
     }
 }
 ```
-
+```c++
+/*
+1.什么时候需要startIndex?
+2.什么时候需要visited?
+3.去重的几种操作？
+*/
+```
