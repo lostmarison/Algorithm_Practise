@@ -66,6 +66,15 @@ LeetCode practise
 ### 回溯算法
 [回溯算法基本思想](leetcode/backtracking.md)  
 [77.组合](leetcode/77.md)  
+[216.组合总和III](leetcode/216.md)  
 [17.电话号码的字母组合](leetcode/17.md)  
+[39.组合总和](leetcode/39.md)  
+[40.组合总和II](leetcode/40.md)  
+[131.分割字符串](leetcode/131.md)  
+[78.子集](leetcode/78.md)  
+[90.子集II](leetcode/90.md)  
+[491.非递减子序列](leetcode/491.md)  
+[46.全排列](leetcode/46.md)  
+[47.全排列II](leetcode/47.md)  
 [51.N皇后](leetcode/51.md)  
-[78.幂集](leetcode/78.md)  
+
