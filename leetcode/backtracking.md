@@ -15,7 +15,10 @@ void backtracking(参数) {
 ```c++
 /*
 1.什么时候需要startIndex?
-2.什么时候需要visited?
-3.去重的几种操作？
+2.什么时候i=0，什么时候i=startIndex开始？
+3.什么时候需要visited?
+4.推入temp的条件？
+5.什么时候需要backtacking(i+1)？
+6.去重的几种操作？
 */
 ```
