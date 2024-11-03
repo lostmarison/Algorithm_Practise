@@ -63,6 +63,7 @@ LeetCode practise
 [235.搜索树的最近公共祖先](leetcode/235.md)  
 [701.二叉搜索树中的插入操作](leetcode/701.md)  
 [450.删除二叉搜索树中的节点](leetcode/450.md)   
+
 ### 回溯算法
 [回溯算法基本思想](leetcode/backtracking.md)  
 [77.组合](leetcode/77.md)  
@@ -77,4 +78,11 @@ LeetCode practise
 [46.全排列](leetcode/46.md)  
 [47.全排列II](leetcode/47.md)  
 [51.N皇后](leetcode/51.md)  
+
+### 动态规划
+[509.斐波那契数](leetcode/509.md)  
+[70.爬楼梯](leetcode/70.md)  
+[746.使用最小花费爬楼梯](leetcode/746.md)  
+
+
 
