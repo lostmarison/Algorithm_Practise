@@ -83,6 +83,8 @@ LeetCode practise
 [509.斐波那契数](leetcode/509.md)  
 [70.爬楼梯](leetcode/70.md)  
 [746.使用最小花费爬楼梯](leetcode/746.md)  
-
+[62.不同路径](leetcode/62.md)  
+[63.不同路径II](leetcode/63.md)  
+[343.整数拆分](leetcode/343.md)  
 
 
