@@ -17,6 +17,9 @@ max(dp[i-1][j],dp[i-1][j-weight[i]])
 dp[i][0] = 0。
 3. 初始化第 0 行时，当 j >= weight[0] 时的最大价值都为 value[0]，即 dp[0][j] =
 value[0]。
+
+价值最大：
+返回dp[最后一个物品下标][背包容量]
 ```
 
 ![image](https://github.com/user-attachments/assets/62c6134a-e837-4d99-b491-3614b7a825d7)
@@ -32,7 +35,7 @@ int n = weight.size(); // 物品个数
 
 ```c++
 vector<int> weight = {1, 3, 4}; // 物品重量
-vector<int> value = {15, 20, 30}; // 物品价值
+vector<int> value = {15, 20, 36}; // 物品价值
 int bagsize = 4; // 背包容量
 
 int getMaxValue(vector<int>& weight, vector<int>& value, int bagsize) {
