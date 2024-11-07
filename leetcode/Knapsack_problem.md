@@ -22,7 +22,7 @@ value[0]。
 返回dp[最后一个物品下标][背包容量]
 ```
 
-![image](https://github.com/user-attachments/assets/62c6134a-e837-4d99-b491-3614b7a825d7)
+![knapsack1](https://github.com/user-attachments/assets/47302c9f-0154-4b60-988e-ba7ad7411785)
 ### 初始化
 ```c++
 int n = weight.size(); // 物品个数
@@ -57,4 +57,41 @@ int getMaxValue(vector<int>& weight, vector<int>& value, int bagsize) {
     }
     return dp[n - 1][bagsize];
 }
+```
+### 优化
+![knapsack2](https://github.com/user-attachments/assets/1fbacf8b-a2fd-4a8e-81de-d94d3be97ff3)
+```c++
+int getMaxValue2(vector<int>& weight, vector<int>& value, int bagsize) {
+    int n = weight.size();  // 物品数量
+    vector<int> dp(bagsize + 1, 0);
+    for (int i = 0; i < n; ++i) {  // 外循环遍历物品
+        for (int j = 0; j <= bagsize; ++j) {
+            dp[j] = max(dp[j], value[i] + dp[j - weight[i]]);
+        }
+    }
+    /*
+    for (int i = 0; i < n; ++i) {  // 外循环遍历物品
+        // 内循环倒序遍历
+        for (int j = bagsize; j >= weight[i]; --j) {
+            dp[j] = max(dp[j], value[i] + dp[j - weight[i]]);
+        }
+    }
+    */
+    return dp[bagsize];
+}
+```
+
+```
+问题与解答：
+1.为什么内循环采用了逆序遍历？
+如果内循环采用正序遍历（与二维dp一样），则当我们先用物品 0 遍历时，会依次填入0 15 30 45 60。这是错误的。由于没有使用二维数组，使得我们每次填最大价值时都基于了前面一列的最大价值：
+例如，在判断dp[2]时，dp[1]已经选择了物品 0，但背包还剩余 1 容量，使得在与dp[1]比较时，又一次装入了物品 0，以此类推。
+
+2.为什么二维dp不会出现重复取物品呢？
+因为对于二维dp，dp[i][j]是通过上一层dp[i-1][j]计算而来的，使得本层的dp[i][j]不会被覆盖。
+
+3.为什么逆序遍历时不会重复取物品呢？
+以所给例子具体为例：
+我们初始化了一维数组为全 0 数组，因此在用物品 0 逆序遍历时，我们始终将 dp[value[i]+j-weight[i]] 与 0 比较，保证每次最多装入一个物品。
+而在我们用物品 1 遍历时，我们判断出此时能装入物品 1，因此我们比较了 value[1]+dp[3](=35) 与 dp[4](=15)。而这个dp[3]即是由上层“继承”下来的。
 ```
