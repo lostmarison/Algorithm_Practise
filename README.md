@@ -1,5 +1,5 @@
-# LeetCode
-LeetCode practise
+# Algorithm
+Algorithm practise
 
 ### 数组
 [704.二分查找](leetcode/704.md)  
