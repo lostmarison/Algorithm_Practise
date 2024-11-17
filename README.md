@@ -26,6 +26,9 @@ LeetCode practise
 [202.快乐数](leetcode/202.md)  
 [1.两数之和](leetcode/1.md)  
 
+### 字符串
+[680.验证回文串II](leetcode/680.md)  
+
 ### 栈
 [20.有效的括号](leetcode/20.md)  
 [1047.删除字符串中所有相邻重复项](leetcode/1047.md)  
