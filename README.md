@@ -20,6 +20,7 @@ LeetCode practise
 [24.两两交换链表中的节点](leetcode/24.md)  
 [19.删除链表的倒数第N个结点](leetcode/19.md)  
 [328.奇偶链表](leetcode/328.md)    
+
 ### 哈希表
 [136.只出现一次的数(异或)](leetcode/136.md)  
 [1002. 查找共用字符](leetcode/1002.md)  
@@ -28,6 +29,7 @@ LeetCode practise
 
 ### 字符串
 [680.验证回文串II](leetcode/680.md)  
+[3.无重复字符的最长字串（滑动窗口）](leetcode/3.md)  
 
 ### 栈
 [20.有效的括号](leetcode/20.md)  
