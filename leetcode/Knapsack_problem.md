@@ -64,19 +64,12 @@ int getMaxValue(vector<int>& weight, vector<int>& value, int bagsize) {
 int getMaxValue2(vector<int>& weight, vector<int>& value, int bagsize) {
     int n = weight.size();  // 物品数量
     vector<int> dp(bagsize + 1, 0);
-    for (int i = 0; i < n; ++i) {  // 外循环遍历物品
-        for (int j = 0; j <= bagsize; ++j) {
-            dp[j] = max(dp[j], value[i] + dp[j - weight[i]]);
-        }
-    }
-    /*
-    for (int i = 0; i < n; ++i) {  // 外循环遍历物品
+    for (int i = 0; i < n; ++i) {  // 外循环正序遍历物品
         // 内循环倒序遍历
         for (int j = bagsize; j >= weight[i]; --j) {
             dp[j] = max(dp[j], value[i] + dp[j - weight[i]]);
         }
     }
-    */
     return dp[bagsize];
 }
 ```
