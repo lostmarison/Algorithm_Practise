@@ -48,9 +48,9 @@ int getMaxValue(vector<int>& weight, vector<int>& value, int bagsize) {
     // 递推
     for (int i = 1; i < n; ++i) {
         for (int j = 0; j <= bagsize; ++j) {
-            if (j < weight[i]) {
-                dp[i][j] = dp[i - 1][j];
-            } else {
+            if (j < weight[i]) { // 如果背包容量比当前物品重量小
+                dp[i][j] = dp[i - 1][j]; // 选不了当前物品，即在背包容量为 j 时，只能在下标为 [0 ~ i-1] 的物品中选物品
+            } else { 
                 dp[i][j] = max(dp[i - 1][j], value[i] + dp[i - 1][j - weight[i]]);
             }
         }
