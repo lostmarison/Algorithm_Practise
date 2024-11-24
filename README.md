@@ -94,7 +94,7 @@ Algorithm practise
 [62.不同路径](leetcode/62.md)  
 [63.不同路径II](leetcode/63.md)  
 [343.整数拆分](leetcode/343.md)  
-[背包问题](leetcode/Knapsack_problem.md)  
+[背包问题](leetcode/Knapsack.md)  
 [416.分割等和子集](leetcode/416.md)  
 [1049.最后一块石头的重量II](leetcode/1049.md)  
 [494.目标和](leetcode/494.md)  
