@@ -100,4 +100,7 @@ Algorithm practise
 [494.目标和](leetcode/494.md)  
 [474.一和零](leetcode/474.md)  
 [518.零钱兑换II](leetcode/518.md)  
- 
+[377.组合总和](leetcode/377.md)  
+[322.零钱兑换](leetcode/322.md)  
+[279.完全平方数](leetcode/279.md)  
+[139.单词拆分](leetcode/139.md)  
