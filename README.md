@@ -104,3 +104,5 @@ Algorithm practise
 [322.零钱兑换](leetcode/322.md)  
 [279.完全平方数](leetcode/279.md)  
 [139.单词拆分](leetcode/139.md)  
+[198.打家劫舍](leetcode/198.md)  
+[213.打家劫舍II](leetcode/213.md)  
